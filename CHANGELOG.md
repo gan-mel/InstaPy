@@ -6,7 +6,7 @@ _The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [0.1.4] - INSERT MERGING DATE HERE
 ### Fixed
 - Only import instapy-chromedriver package when needed
-- Avoid user errors providing user names with caps
+- Avoid user errors providing instagram user names with caps (transform user names to non caps in unfollow_util.py)
 - Fix get_active_users wrong behavior on videos
 
 
